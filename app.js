@@ -190,3 +190,90 @@ if(sepDay == 0  && sepDay == 6){
 
 
 
+// chapter no 38 to 42
+
+// qno#01
+
+// qno#02
+// function foo(){
+//     var year = prompt("Enter your leap year");
+//     if (year % 4 === 0){
+//         alert(year + " is a leap year");
+//     }else {
+//         alert(year + " is not a leap year");
+//     }
+// }
+// foo();
+
+// qno#03
+// function foo(){
+//     var a = +prompt("Enter your ist value, in area of triangle");
+//     var b = +prompt("Enter your 2nd value, in area of triangle");
+//     var c = +prompt("Enter your 3rd value, in area of triangle");
+//     var side = (a + b + c) / 2;
+//     var calculateAreaOfTraingle = (side)*(side - a)*(side - b)*(side - c);
+//     document.write("The area of triangle is " + calculateAreaOfTraingle);
+// }
+// foo();
+
+// qno#04
+
+// qno#05
+// function foo() {
+//     var str = "Web Developments in the saylani welafre it academy";
+//     var index = str.indexOf("Developments");
+//     alert(index);
+// }
+// foo();
+
+// qno#06
+// function foo(){
+//         var input = prompt("Enter your string");
+//         var replace = input.replace(/[aeiouAEIOU]/g , " ");
+//         alert("Original string: " + input + "\n" + "The string remove a vowels: " + replace);
+//     }
+//     foo()
+
+// qno#07
+// function findOccurrences() {
+    //     var str = "Pleases read this application and give me gratuity";
+    //     var res = str.match(/[aeiou]{2}/g);
+    //     var join = res.join(",")
+    //     document.write("Original String: " + str + "<br>");
+    //     document.write("This senntence any two vowels in succession: " + join);
+    // }
+    // findOccurrences();
+    
+    //   OR
+
+    // function foo(){
+    //     var input = prompt("Enter your sentence");
+    //     var result = "";
+    //     for(var i = 0; i < input.length; i++){
+    //         if(input[i] === "a" || input[i] === "e" || input[i] === "i" || input[i] === "o" || input[i] === "u" || input[i] === "A" || input[i] === "E" || input[i] === "I" ||input[i] === "O" || input[i] === "U"){
+    //             result += input[i] + ",";
+    //         }
+    //     }
+    //     document.write("This sensetence is: " + input + "<br>");
+    //     document.write("This senstence vowels are: " + result);
+    // }
+    // foo()
+    
+// qno#08
+// function foo(){
+//     var city1 = prompt("Enter your ist city name");
+//     var city2 = prompt("Enter your 2nd city name");
+//     var input = prompt("Distance between " + city1 + " and " + city2);
+//     var meters = input * 1000;
+//     var centimeters = input * 1000 * 100;
+//     var feet = input * 3280.84;
+//     var inches = input * 39370.1;
+//     document.write("Distance between " + city1 + " and " + city2 + " in: " + input + " Km <br>");
+//     document.write("Convert into Meters: " + meters + " M <br>");
+//     document.write("Convert into Centemeters: " + centimeters + " Cm <br>");
+//     document.write("Convert into Feet: " + feet + " Ft <br>");
+//     document.write("Convert into Inches: " + inches + " In ");
+// }
+// foo();
+
+// qno#09
