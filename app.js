@@ -187,3 +187,6 @@ if(sepDay == 0  && sepDay == 6){
 // document.write("Customer Name: " + user + "<br>" + "Month: " + today + "<br> Number of units: " + unit + "<br> Charges per units: " + charge + "<br> <br>");
 // document.write("Net Amount Payable (Within Due Date): " + net + "<br> Late payament surcharge: " + late + "<br>");
 // document.write("Gross Amount Payable (after Due Date): " + gross);
+
+
+
