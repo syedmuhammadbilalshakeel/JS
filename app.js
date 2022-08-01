@@ -193,6 +193,15 @@ if(sepDay == 0  && sepDay == 6){
 // chapter no 38 to 42
 
 // qno#01
+// var a= 16;
+// var b= 2;
+// function lo(x){
+//    return  (a+b)-x
+// }
+// console.log(lo(a));
+
+
+
 
 // qno#02
 // function foo(){
@@ -277,3 +286,93 @@ if(sepDay == 0  && sepDay == 6){
 // foo();
 
 // qno#09
+
+// qno#09
+// function foo() {
+//     var overTime = +prompt("Enter a working hour of employee in overtime");
+//     var perHourSalry = 12.00;
+//     if (overTime >= 40){
+//         var income = overTime * perHourSalry;
+//         alert("You overtime pay salary is: " + income);
+//     }else {
+//         alert("You have to work for more than 40 hour to get over time pay");
+//     }
+// }
+// foo();
+
+// qno#10
+// var user = +prompt("Enter Amount");
+    // var result = 0;
+    // var hun = 0;
+    // var fiv = 0;
+    // var ten = 0;
+    // var one = 0;
+    
+    // for (i = 0; i < 5; i++) {
+    
+    //     if (user >= 100) {
+    //         hun = Math.floor(user / 100);
+    //         user -= hun * 100;
+    //     }
+    //     else if (user >= 50) {
+    //         fiv = Math.floor(user / 50);
+    //         user -= fiv * 50;
+    //     }
+    //     else if (user >= 10) {
+    //         ten = Math.floor(user / 10);
+    //         user -= ten * 10 ;
+    //     }
+    //     else if (user >= 1) {
+    //         one = Math.floor(user / 1);
+    //         user -= one * 1 ;
+    //     }
+    // }
+    // alert(hun + " hundred rupee", fiv + " fivety rupee", ten + " ten rupee", one + " one rupee",)
+    
+    
+    
+    
+    
+    // Extra
+    // function foo(a,b) {
+    //     var c = a * 3;
+    //     var d = b * 2;
+    //     var e = c + d;
+    //     var sum = 0;
+    //     for (var i = e; i >= 1; i--){
+    //         if (i % 2 !== 0){
+    //             sum += i;
+    //             var slit = sum.toString();
+    //             var arr = slit.split(" ");
+    //             for(var j = 0; j < arr.length; j++){
+    //                 if (arr[j] === "49"){
+    //                     console.log(Number(arr[j]));
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+    // var func = foo(3,2);
+    // console.log(func);
+    
+    
+    function foo(a,b) {
+        var c = a * 3;
+        var d = b * 2;
+        var e = c + d;
+        var sum = 0;
+        for (var i = e; i >= 1; i--){
+            if (i % 2 !== 0){
+                sum += i;
+                var slit = sum.toString();
+                var arr = slit.split(" ");
+                for(var j = 0; j < arr.length; j++){
+                    if (arr[j] === "49"){
+                        console.log(Number(arr[j]));
+                    }
+                }
+            }
+        }
+    }
+    var func = foo(3,2);
+    console.log(func);
